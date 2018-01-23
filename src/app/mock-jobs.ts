@@ -1,0 +1,7 @@
+import { Job } from './job.model';
+
+export const JOBS: Job[] = [
+    new Job("Bartender", "Northwood Public House and Brewery in Battle Ground has an immediate opportunity for a full and part time hostess. Our business is growing rapidly. Become a member of a dynamic, team-oriented crew in a fast paced environment and enjoy the fun and satisfaction of being part of Battle Grounds premiere brewpub. We offer Competitive Wages + Gratuities, and opportunity for qualified individuals to advance into leadership positions.", 1),
+    new Job("Clown", "Family-owned plumbing/drain cleaning/excavation company is looking for someone with experience to work with our excavation crews. If you have a CDL - that's a plus!! Our Excavation department repairs main sewer lines, rain drains, and water service lines all across the Portland and Vancouver metro areas. We do spot repairs & trenching, and also provide many trenchless options including boring, bursting & CIPP lining.", 2),
+    new Job("Swordsman", "CHORDination- Harmony in Music Education is seeking a skilled and energetic Piano Teacher for lessons offered in the comfort of a student's home. We have been in business for over 20 years. We offer lessons in SW and NW Portland, Inner SE & Inner NE Portland, Tigard, West Linn and Lake Oswego. The schedule is flexible and you can set your own hours. Ability to teach other instruments is a plus. Dependable transportation is a must.", 3)
+  ];

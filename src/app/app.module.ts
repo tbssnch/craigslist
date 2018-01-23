@@ -5,9 +5,12 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { CategoriesComponent } from './categories/categories.component';
 import { JobsComponent } from './jobs/jobs.component';
-import { routing } from './app.routing';
 import { PersonalsComponent } from './personals/personals.component';
 import { HousingComponent } from './housing/housing.component';
+
+import { routing } from './app.routing';
+import { JobDetailComponent } from './job-detail/job-detail.component';
+import { HousingDetailComponent } from './housing-detail/housing-detail.component';
 
 
 @NgModule({
@@ -16,7 +19,9 @@ import { HousingComponent } from './housing/housing.component';
     CategoriesComponent,
     JobsComponent,
     PersonalsComponent,
-    HousingComponent
+    HousingComponent,
+    JobDetailComponent,
+    HousingDetailComponent
   ],
   imports: [
     BrowserModule,

@@ -1,3 +1,7 @@
-<p>
-  housing works!
-</p>
+<div class="jumbotron">
+  <div *ngFor="let house of housing" (click)="goToDetailPage(house)">
+    <ul>
+      <li>{{house.title}}</li>
+    </ul>
+  </div>
+</div>

@@ -4,7 +4,8 @@ import { CategoriesComponent } from './categories/categories.component';
 import { JobsComponent } from './jobs/jobs.component';
 import { PersonalsComponent } from './personals/personals.component';
 import { HousingComponent } from './housing/housing.component';
-
+import { JobDetailComponent } from './job-detail/job-detail.component';
+import { HousingDetailComponent } from './housing-detail/housing-detail.component';
 
 const appRoutes: Routes = [
   {
@@ -22,9 +23,15 @@ const appRoutes: Routes = [
   {
     path: 'housing',
     component: HousingComponent
+  },
+  {
+    path: 'jobs/:id',
+    component: JobDetailComponent
+  },
+  {
+    path: 'housing/:id',
+    component: HousingDetailComponent
   }
-
-
  ];
 
 export const routing: ModuleWithProviders = RouterModule.forRoot(appRoutes);
